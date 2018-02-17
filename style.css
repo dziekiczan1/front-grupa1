@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/*Background*/
+
 body, html{
     font-family: arial;
     height: 100%;
@@ -20,6 +22,8 @@ body, html{
     position: absolute;
     z-index: -5;
 }
+
+/*Header*/
 
 header{
     position: relative;
@@ -97,3 +101,117 @@ header{
     text-decoration: none;
     text-transform: uppercase;
     color: #fff; 
+}
+
+/*About us*/
+
+.about {
+    margin: 50px auto;
+    padding: 15px;
+    width: 900px;
+    height: auto;
+    background-color: #fff;
+    border: 3px solid green;
+    opacity: 0.8;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.5em;
+}
+.about h1, p {
+	text-align: center;
+	overflow: wrap;
+}
+
+.about a {
+	text-decoration: none;
+	transition: 0.7s;
+}
+
+.about a:hover {
+	color: #1C11ED;
+	transform: scale(2.3);
+}
+
+/* Groups */
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: space-between;
+}
+
+.group {
+    margin: 50px 2%;
+    padding: 15px;
+    width: 900px;
+    height: auto;
+    background-color: #fff;
+    border: 3px solid green;
+    opacity: 0.8;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.5em;
+    width: 240px;
+    height: 220px;
+}
+
+ .group:hover {
+    background-color: #6cc644;
+    cursor: pointer;
+}
+
+.group h3 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.group p {
+    margin: auto 1%;
+    font-size: 15px;
+}
+
+/* Join us */
+
+.content{
+    margin: 50px auto;
+    padding: 15px;
+    width: 900px;
+    height: auto;
+    background-color: #fff;
+    border: 3px solid green;
+    opacity: 0.8;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.5em;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.fb{
+    float: left;
+    padding: 10px;
+    color: #000;
+}
+.slack{
+    float: left;
+    padding: 10px;
+    color: #000;
+    
+}
+.git{
+    float: left;
+    padding: 10px;
+    color: #000;
+}
+
+.fb:hover{
+    color: #3B5998;
+}
+
+.git:hover{
+    color: #6cc644;
+}
+
+.slack:hover{
+    color: #ecb32d;
+}
