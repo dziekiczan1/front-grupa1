@@ -9,6 +9,7 @@
 body, html{
     font-family: arial;
     height: 100%;
+    overflow:hidden;
 
 }
 
@@ -146,6 +147,7 @@ header{
     padding: 15px;
     width: 900px;
     height: auto;
+    transition: background-color 0.3s ease;
     background-color: #fff;
     border: 3px solid green;
     opacity: 0.8;
